@@ -163,10 +163,6 @@ def main():
         #Updates the window
         pygame.display.flip()
 
-        #Prints out the properties of one planet
-        print(list_of_planets[1]._x_acceleration[0])
-        print(list_of_planets[1]._x_velocity[0])
-
         # Updates the Planets and draws them
         for planet in list_of_planets:
             if planet != sun:
